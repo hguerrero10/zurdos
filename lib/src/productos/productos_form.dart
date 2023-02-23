@@ -116,7 +116,7 @@ class _ProductosState extends State<Productos> {
                       child: Text(
                         '\$ ' + document.get('precio').toString(),
                         style: const TextStyle(
-                          color: Color.fromRGBO(44, 197, 94, 1),
+                          color: Color.fromRGBO(0, 17, 134, 1)  ,
                           fontWeight: FontWeight.bold
                         )
                       ),
@@ -128,7 +128,7 @@ class _ProductosState extends State<Productos> {
                           'Ver mas',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            color: Color.fromRGBO(44, 197, 94, 1),
+                            color: Color.fromRGBO(0, 17, 134, 1)  ,
                           )
                         ),  
                       ),

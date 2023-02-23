@@ -134,7 +134,7 @@ class _CompraEventoState extends State<CompraEvento> {
                 borderRadius: const BorderRadius.all(Radius.circular(10)),
                 child: Container(
                   decoration: const BoxDecoration(
-                    color: Color.fromRGBO(44, 197, 94, 1),
+                    color: Color.fromRGBO(0, 17, 134, 1)  ,
                     image: DecorationImage(
                       image: AssetImage('assets/llanta.png'),
                       fit: BoxFit.cover,
@@ -194,7 +194,7 @@ class _CompraEventoState extends State<CompraEvento> {
                             height: 35,
                             child: ElevatedButton(
                               style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1),),
+                                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ,),
                                 side: MaterialStateProperty.all<BorderSide>(
                                   const BorderSide(
                                     color: Colors.white
@@ -306,7 +306,7 @@ class _CompraEventoState extends State<CompraEvento> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Carrito(user: widget.user, evento: widget.evento, userRepository: widget.userRepository,))); 
               },
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1),),
+                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ,),
               ),
               child: const Center(
                 child: Text(
@@ -442,7 +442,7 @@ class _CompraEventoState extends State<CompraEvento> {
                               });
                             },
                             style: ButtonStyle(
-                              backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1),),
+                              backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ,),
                             ), 
                             child: const Center(
                               child: Text(

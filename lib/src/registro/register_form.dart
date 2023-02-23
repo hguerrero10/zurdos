@@ -131,7 +131,7 @@ class _RegisterFormState extends State<RegisterForm> {
                           ),
                         ),
                         const SizedBox(height: 50),
-                        _input('Nombre', 'Nombre invalido', _nameController, TextInputType.text, Icons.person_outline, 10, false, false),
+                        _input('Nombre', 'Nombre invalido', _nameController, TextInputType.text, Icons.person_outline, 100111111111111111, false, false),
                         const SizedBox(height: 15),
                         _input('Telefono', 'Telefono invalido', _phoneController, TextInputType.phone, Icons.phone_outlined, 10, false, false),
                         const SizedBox(height: 15),
@@ -139,7 +139,7 @@ class _RegisterFormState extends State<RegisterForm> {
                         const SizedBox(height: 15),
                         _inputPassword('Contraseña', 'Contraseña invalida', TextInputType.visiblePassword, _passwordController, Icons.vpn_key_outlined),
                         const SizedBox(height: 30),
-                        _button('Registrar', const Color.fromRGBO(44, 197, 94, 1), _onFormSubmitted),
+                        _button('Registrar', const Color.fromRGBO(0, 17, 134, 1)  , _onFormSubmitted),
                       ],
                     )
                   )

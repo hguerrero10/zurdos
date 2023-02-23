@@ -39,8 +39,8 @@ class _MisEventosFormState extends State<MisEventosForm> {
           appBar: const TabBar(
             labelPadding: EdgeInsets.all(1),
             unselectedLabelColor: Colors.black,
-            labelColor: Color.fromRGBO(44, 197, 94, 1),
-            indicatorColor: Color.fromRGBO(44, 197, 94, 1),
+            labelColor: Color.fromRGBO(0, 17, 134, 1)  ,
+            indicatorColor: Color.fromRGBO(0, 17, 134, 1)  ,
             labelStyle: TextStyle(
               fontSize: 14,
             ),

@@ -1,62 +1,33 @@
 {
   "project_info": {
-    "project_number": "815395578668",
-    "project_id": "santiago-app-8bfa0",
-    "storage_bucket": "santiago-app-8bfa0.appspot.com"
+    "project_number": "568405578191",
+    "project_id": "zurdos-38449",
+    "storage_bucket": "zurdos-38449.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:815395578668:android:4e876cfc1d531a7f37c289",
-        "android_client_info": {
-          "package_name": "com.example.santiago4x4pro"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "815395578668-76v7q3e6bv45l1jfb2ur6auig3s7k7a7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAyK8us1eVJPmFmZJY83BvpA26pLCI4cys"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "815395578668-76v7q3e6bv45l1jfb2ur6auig3s7k7a7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:815395578668:android:5bcb51071a9f954437c289",
+        "mobilesdk_app_id": "1:568405578191:android:82dfb623a4f00c92ef82ba",
         "android_client_info": {
           "package_name": "com.grupotlk.santiago4x4pro"
         }
       },
       "oauth_client": [
         {
-          "client_id": "815395578668-76v7q3e6bv45l1jfb2ur6auig3s7k7a7.apps.googleusercontent.com",
+          "client_id": "568405578191-d3n4fc9uug5o5q8n2e3pb2g46h3hi6mj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAyK8us1eVJPmFmZJY83BvpA26pLCI4cys"
+          "current_key": "AIzaSyBe-6y_CfMRY5Yl0Fdd0czgO-94PDV2iaw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "815395578668-76v7q3e6bv45l1jfb2ur6auig3s7k7a7.apps.googleusercontent.com",
+              "client_id": "568405578191-d3n4fc9uug5o5q8n2e3pb2g46h3hi6mj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

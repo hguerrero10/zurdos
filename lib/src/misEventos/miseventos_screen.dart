@@ -15,7 +15,7 @@ class MisEventosScreen extends StatelessWidget {
         title: const Text(
           'Eventos',
         ),
-        backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+        backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
       ),
       body: MisEventosForm(user: user,),
     );

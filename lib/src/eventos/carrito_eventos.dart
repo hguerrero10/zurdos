@@ -174,8 +174,8 @@ class _CarritoState extends State<Carrito> {
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [
-                                const Color.fromRGBO(44, 197, 94, 1).withOpacity(.9),
-                                const Color.fromRGBO(44, 197, 94, 1).withOpacity(.9),
+                                const Color.fromRGBO(0, 17, 134, 1)  .withOpacity(.9),
+                                const Color.fromRGBO(0, 17, 134, 1)  .withOpacity(.9),
                               ]
                             )
                           ),
@@ -253,14 +253,14 @@ class _CarritoState extends State<Carrito> {
                         const Text(
                           '\$ ',
                           style: TextStyle(
-                            color: Color.fromRGBO(44, 197, 94, 1),
+                            color: Color.fromRGBO(0, 17, 134, 1)  ,
                             fontWeight: FontWeight.bold
                           ),
                         ),
                         Text(
                           bloc.cartItems[index].costoTotal,
                           style: const TextStyle(
-                            color: Color.fromRGBO(44, 197, 94, 1)
+                            color: Color.fromRGBO(0, 17, 134, 1)  
                           ),
                         ),
                         const Text(
@@ -318,7 +318,7 @@ class _CarritoState extends State<Carrito> {
                           height: 30,
                           width: 30,
                           decoration: BoxDecoration(
-                            color: const Color.fromRGBO(44, 197, 94, 1),
+                            color: const Color.fromRGBO(0, 17, 134, 1)  ,
                             borderRadius: BorderRadius.circular(10)
                           ),
                           child: Center(
@@ -406,7 +406,7 @@ class _CarritoState extends State<Carrito> {
                 }
               },
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1)),
+                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ),
               ), 
               child: Container(
                 alignment: Alignment.center,

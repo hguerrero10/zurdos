@@ -124,8 +124,8 @@ class MapScreenState extends State<PerfilForm> {
             appBar: const TabBar(
               labelPadding: EdgeInsets.all(1),
               unselectedLabelColor: Colors.black,
-              labelColor: Color.fromRGBO(44, 197, 94, 1),
-              indicatorColor: Color.fromRGBO(44, 197, 94, 1),
+              labelColor: Color.fromRGBO(0, 17, 134, 1)  ,
+              indicatorColor: Color.fromRGBO(0, 17, 134, 1)  ,
               labelStyle: TextStyle(
                 fontSize: 14,
               ),
@@ -179,7 +179,7 @@ class MapScreenState extends State<PerfilForm> {
                           children: [
                             Container(
                             child: _status == true ? null : CircleAvatar(
-                              backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+                              backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
                               radius: 25,
                               child: IconButton(
                                 icon: const Icon(Icons.camera_alt),
@@ -570,7 +570,7 @@ class MapScreenState extends State<PerfilForm> {
         'Agregar vehículo', 
         '',
         CupertinoIcons.car_detailed, 
-        const Color.fromRGBO(44, 197, 94, 1),
+        const Color.fromRGBO(0, 17, 134, 1)  ,
         Colors.white, 
         context, 
         () async {
@@ -719,7 +719,7 @@ class MapScreenState extends State<PerfilForm> {
         },
       );
     },
-    backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+    backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
     child: const Icon(
       Icons.add,
       color: Colors.white,
@@ -793,7 +793,7 @@ class MapScreenState extends State<PerfilForm> {
                 "Guardar", 
               ),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1),)
+                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ,)
               ),
               onPressed: () async{
                 setState(() {
@@ -803,7 +803,7 @@ class MapScreenState extends State<PerfilForm> {
                   '',
                   'contenido',
                   CupertinoIcons.info, 
-                  const Color.fromRGBO(44, 197, 94, 1), 
+                  const Color.fromRGBO(0, 17, 134, 1)  , 
                   Colors.white, context, 
                   () async {
                     setState(() {
@@ -895,7 +895,7 @@ class MapScreenState extends State<PerfilForm> {
   Widget _getEditIcon() {
     return GestureDetector(
       child: const CircleAvatar(
-        backgroundColor: Color.fromRGBO(44, 197, 94, 1),
+        backgroundColor: Color.fromRGBO(0, 17, 134, 1)  ,
         radius: 14,
         child: Icon(
           Icons.edit,

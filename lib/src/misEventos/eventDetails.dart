@@ -88,7 +88,7 @@ class _DetailsEventState extends State<DetailsEvent> {
                      widget.document.get("evento").toString(),
                      textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color.fromRGBO(44, 197, 94, 1),
+                        color: Color.fromRGBO(0, 17, 134, 1)  ,
                         fontSize: 18
                       )
                     ),
@@ -204,7 +204,7 @@ class _DetailsEventState extends State<DetailsEvent> {
                       child: Text(
                         snapshot.data!.docs[0].get('createAt'),
                         style: const TextStyle(
-                          color: Color.fromRGBO(44, 197, 94, 1),
+                          color: Color.fromRGBO(0, 17, 134, 1)  ,
                           fontSize: 15
                         ),
                       ),
@@ -232,7 +232,7 @@ class _DetailsEventState extends State<DetailsEvent> {
               descripcion,
               style: const TextStyle(
                 fontSize: 15,
-                color: Color.fromRGBO(44, 197, 94, 1),
+                color: Color.fromRGBO(0, 17, 134, 1)  ,
               ),
             ),
           ),
@@ -267,7 +267,7 @@ class _DetailsEventState extends State<DetailsEvent> {
                 padding: const EdgeInsets.only(top: 4.0),
                 child: Text(
                   firstDesc, style: const TextStyle(
-                    color: Color.fromRGBO(44, 197, 94, 1),
+                    color: Color.fromRGBO(0, 17, 134, 1)  ,
                     fontSize: 15
                   ),
                 ),
@@ -290,7 +290,7 @@ class _DetailsEventState extends State<DetailsEvent> {
                 padding: const EdgeInsets.only(top: 4.0),
                 child: Text(
                   secondDesc, style: const TextStyle(
-                    color: Color.fromRGBO(44, 197, 94, 1),
+                    color: Color.fromRGBO(0, 17, 134, 1)  ,
                     fontSize: 15
                   ),
                 ),

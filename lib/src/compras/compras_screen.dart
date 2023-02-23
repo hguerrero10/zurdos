@@ -13,7 +13,7 @@ class ComprasScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: const Text('Compras'),
-        backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+        backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
       ),
       body: ComprasForm(user: user,),
     );

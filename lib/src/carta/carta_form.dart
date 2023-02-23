@@ -336,7 +336,7 @@ class _CartaResponsivaFormState extends State<CartaResponsivaForm> {
       width: size,
       child: ElevatedButton(
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1)),
+          backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ),
         ),
         onPressed: onPressed,
         child: Center(

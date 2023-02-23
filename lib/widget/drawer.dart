@@ -65,42 +65,43 @@ import 'package:url_launcher/url_launcher.dart';
                       ],
                     ),
                     decoration: const BoxDecoration( 
-                      color: Color.fromRGBO(44, 197, 94, 1),     
+                      color: Color.fromRGBO(0, 17, 134, 1)     
                     ),
                   ),
 
                   _item(context, CupertinoIcons.home, 'Inicio', ()=> Navigator.pop(context)),
-                  _item(context, CupertinoIcons.person, 'Perfil', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> PerfilScreen(user: widget.user)))),
-                  _item(context, CupertinoIcons.tickets, 'Mis eventos', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> MisEventosScreen(user: widget.user)))),
-                  _item(context, CupertinoIcons.cart, 'Compras', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> ComprasScreen(user: widget.user)))),
-                  _item(context, CupertinoIcons.star, 'Patrocinadores', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> const PatrocinadoresScreen()))),
-                  _item(context, CupertinoIcons.book, 'Reglamento', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> const ReglamentoScreen()))),
+                  // _item(context, CupertinoIcons.person, 'Perfil', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> PerfilScreen(user: widget.user)))),
+                  // _item(context, CupertinoIcons.tickets, 'Mis eventos', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> MisEventosScreen(user: widget.user)))),
+                  // _item(context, CupertinoIcons.cart, 'Compras', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> ComprasScreen(user: widget.user)))),
+                  // _item(context, CupertinoIcons.star, 'Patrocinadores', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> const PatrocinadoresScreen()))),
+                  // _item(context, CupertinoIcons.book, 'Reglamento', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> const ReglamentoScreen()))),
                   // _item(context, Icons.add, 'Productos', ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> AgregarForm()))),
                   
-                  Column(
-                    children: <Widget>[
-                      Row(
-                        children: const [
-                          SizedBox(
-                            height: 20,
-                            width: 20
-                          ),
-                          Text(
-                            'Visita nuestra tienda',
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 7),
-                      ListTile(
-                        leading: Image.asset(
-                          'assets/logo_tienda_offroad.png',
-                          width: 130,
-                        ),
-                        title: const Text(''),
-                        onTap: ()=> _launchURL('https://www.tiendaoffroad.com/')
-                      ),
-                    ],
-                  ),   
+                  // Column(
+                  //   children: <Widget>[
+                  //     Row(
+                  //       children: const [
+                  //         SizedBox(
+                  //           height: 20,
+                  //           width: 20
+                  //         ),
+                  //         Text(
+                  //           'Visita nuestra tienda',
+                  //         ),
+                  //       ],
+                  //     ),
+                  //     const SizedBox(height: 7),
+                  //     ListTile(
+                  //       leading: Image.asset(
+                  //         'assets/logo_tienda_offroad.png',
+                  //         width: 130,
+                  //       ),
+                  //       title: const Text(''),
+                  //       onTap: ()=> _launchURL('https://www.tiendaoffroad.com/')
+                  //     ),
+                  //   ],
+                  // ),   
+
                 ]
               )
             ),

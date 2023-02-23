@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
         decoration: const BoxDecoration(
           color: Colors.black,
           image: DecorationImage(
-            image: AssetImage('assets/jeep.jpg'),
+            image: AssetImage('assets/splash.jpg'),
             fit: BoxFit.cover
           )
         ),
@@ -26,15 +26,15 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Center(
               child: Image.asset(
-                'assets/logo.png',
-                height: 127,
-                width: 327 
+                'assets/LOGO ZURDOS.png',
+                height: 117,
+                width: 317 
               )
             ),
             const SizedBox(height: 10),
             const CircularProgressIndicator(
               backgroundColor: Colors.transparent,
-              valueColor: AlwaysStoppedAnimation<Color>(Color.fromRGBO(44, 197, 94, 1)),
+              valueColor: AlwaysStoppedAnimation<Color>(Color.fromRGBO(255, 1, 3, 1)),
               strokeWidth: 5,
             )
           ],

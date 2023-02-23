@@ -219,7 +219,7 @@ class _DetalleProductoState extends State<DetalleProducto> {
                                 width: MediaQuery.of(context).size.width * 0.15,
                                 child: ElevatedButton(
                                   style: ButtonStyle(
-                                    backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1))
+                                    backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  )
                                   ),
                                   child: const Icon(Icons.remove),
                                   onPressed: () {
@@ -248,7 +248,7 @@ class _DetalleProductoState extends State<DetalleProducto> {
                                 width: MediaQuery.of(context).size.width * 0.15,
                                 child: ElevatedButton(
                                   style: ButtonStyle(
-                                    backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1))
+                                    backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  )
                                   ),
                                   child: const Icon(Icons.add),
                                   onPressed: () {
@@ -302,7 +302,7 @@ class _DetalleProductoState extends State<DetalleProducto> {
                                         ),
                                       ),
                                       overlayColor: MaterialStateProperty.all(Colors.grey[200]),
-                                      backgroundColor: MaterialStateProperty.all(_selectedItems.contains(index) ? const Color.fromRGBO(44, 197, 94, 1) : Colors.white)
+                                      backgroundColor: MaterialStateProperty.all(_selectedItems.contains(index) ? const Color.fromRGBO(0, 17, 134, 1)   : Colors.white)
                                     ),
                                     onPressed: () {
                                       setState(() {
@@ -350,7 +350,7 @@ class _DetalleProductoState extends State<DetalleProducto> {
                 initPaymentSheet(context, amount: result != _counterTotal ? result * 100 :  _counterTotal * 100);
               },
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1)),
+                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ),
               ), 
               child: Container(
                 alignment: Alignment.center,

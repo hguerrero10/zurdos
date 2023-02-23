@@ -38,7 +38,7 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
           style: ThemeMode.dark,
           customerEphemeralKeySecret: jsonResponse['ephemeralKey'],
           testEnv: false,
-          primaryButtonColor: const Color.fromRGBO(44, 197, 94, 1),
+          primaryButtonColor: const Color.fromRGBO(0, 17, 134, 1)  ,
           merchantCountryCode: 'MXN',
         ),
       );
@@ -60,7 +60,7 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+            backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
             expandedHeight: 140.0,
             flexibleSpace: FlexibleSpaceBar(
               background: Stack(
@@ -77,8 +77,8 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
-                            const Color.fromRGBO(44, 197, 94, 1).withOpacity(.9),
-                            const Color.fromRGBO(44, 197, 94, 1).withOpacity(.9),
+                            const Color.fromRGBO(0, 17, 134, 1)  .withOpacity(.9),
+                            const Color.fromRGBO(0, 17, 134, 1)  .withOpacity(.9),
                           ]
                         )
                       ),
@@ -155,7 +155,7 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
                 await initPaymentSheet(context, email: widget.user.email, amount: bloc.getPriceProductos() * 100.00);
               }, 
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1)),
+                backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ),
               ), 
               child: Container(
                 alignment: Alignment.center,
@@ -221,14 +221,14 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
                                 const Text(
                                   '\$ ',
                                   style: TextStyle(
-                                    color: Color.fromRGBO(44, 197, 94, 1),
+                                    color: Color.fromRGBO(0, 17, 134, 1)  ,
                                     fontWeight: FontWeight.bold
                                   ),
                                 ),
                                 Text(
                                   bloc.cartItemsProductos[index].precio,
                                   style: const TextStyle(
-                                    color: Color.fromRGBO(44, 197, 94, 1),
+                                    color: Color.fromRGBO(0, 17, 134, 1)  ,
                                   ),
                                 ),
                                 const Text(
@@ -286,7 +286,7 @@ class _CarritoPrductosState extends State<CarritoPrductos> {
                                   height: 30,
                                   width: 30,
                                   decoration: BoxDecoration(
-                                    color: const Color.fromRGBO(44, 197, 94, 1),
+                                    color: const Color.fromRGBO(0, 17, 134, 1)  ,
                                     borderRadius: BorderRadius.circular(10)
                                   ),
                                   child: Center(

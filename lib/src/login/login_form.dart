@@ -89,7 +89,8 @@ class _LoginFormState extends State<LoginForm> {
                 child: Container(
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage("assets/atras.jpg"),
+                      opacity: 97,
+                      image: AssetImage("assets/2.jpg"),
                       fit: BoxFit.cover
                     ),
                   ),
@@ -102,11 +103,11 @@ class _LoginFormState extends State<LoginForm> {
                                 child: Wrap(
                                   children: [
                                     Padding(
-                                      padding: const EdgeInsets.only(bottom: 40),
+                                      padding: const EdgeInsets.only(bottom: 140),
                                       child: Row(
                                         mainAxisAlignment: MainAxisAlignment.center,
                                         children: [
-                                          Image.asset('assets/logo.png', width: 250, height: 200),
+                                          Image.asset('assets/LOGO ZURDOS.png', width: 270, height: 220),
                                         ],
                                       ),
                                     ),
@@ -120,7 +121,7 @@ class _LoginFormState extends State<LoginForm> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.only(top: 15, bottom: 15),
-                                      child: _buttons('Iniciar Sesion', const Color.fromRGBO(44, 197, 94, 1), _onFormSubmitted),
+                                      child: _buttons('Iniciar Sesion', const Color.fromRGBO(0, 17, 134, 1)  , _onFormSubmitted),
                                     ),
                                     const SizedBox(height: 10),
                                     Padding(

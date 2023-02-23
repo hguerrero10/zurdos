@@ -13,7 +13,7 @@ class PerfilScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: const Text('Perfil'),
-        backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+        backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
       ),
       body: PerfilForm(user: user),
     );

@@ -106,7 +106,7 @@ class _EventosState extends State<Eventos> {
                           'Ver mas',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            color: Color.fromRGBO(44, 197, 94, 1)
+                            color: Color.fromRGBO(0, 17, 134, 1)  
                           ),
                         )
                       ),

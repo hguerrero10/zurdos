@@ -12,7 +12,7 @@ class Acerca extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            color: const Color.fromRGBO(44, 197, 94, 1),
+            color: const Color.fromRGBO(0, 17, 134, 1)  ,
             height: 350,
             child: Center(
               child: inicio()

@@ -34,7 +34,7 @@ class _DetalleEventoState extends State<DetalleEvento> {
         ),
         child: ElevatedButton(
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(44, 197, 94, 1)),
+            backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(0, 17, 134, 1)  ),
           ),
           onPressed: ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=> CompraEvento(evento: widget.evento,user: widget.user,userRepository: widget.userRepository,))),
           child: const Center(
@@ -51,7 +51,7 @@ class _DetalleEventoState extends State<DetalleEvento> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+            backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
             expandedHeight: 140.0,
             flexibleSpace: FlexibleSpaceBar(
               background: Stack(

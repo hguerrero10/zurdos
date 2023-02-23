@@ -51,6 +51,7 @@ dependencies:
   cloud_functions: ^3.2.4
   whatsapp_unilink: ^2.0.1+1
   intl: ^0.17.0
+  multi_image_picker2: ^5.0.2
   syncfusion_flutter_signaturepad: ^19.4.42
 
 

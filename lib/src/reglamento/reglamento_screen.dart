@@ -11,7 +11,7 @@ class ReglamentoScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: const Text('Reglamento'),
-        backgroundColor: const Color.fromRGBO(44, 197, 94, 1),
+        backgroundColor: const Color.fromRGBO(0, 17, 134, 1)  ,
       ),
       body: const ReglamentoForm(),
     );

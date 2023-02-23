@@ -33,10 +33,14 @@ class _NoticiasState extends State<Noticias> {
           documents.clear();
           documents.addAll(snapshot.data!.docs);
           return snapshot.data!.docs.isNotEmpty ?
-          Flexible(
-            child: ListView(
-              children: _publicacion(snapshot.data!.docs),
-            ),  
+          Column(
+            children: [   
+              Flexible(
+                child: ListView(
+                  children: _publicacion(snapshot.data!.docs),
+                ),  
+              ),
+            ],
           ) : _noNoticias();
         } 
         else {
